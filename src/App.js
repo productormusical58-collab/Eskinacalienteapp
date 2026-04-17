@@ -30,7 +30,7 @@ const [caja, setCaja] = useState(() => {
   return data ? JSON.parse(data) : { efectivo: 0, transferencia: 0 };
 });
 
-const [animandoId, setAnimandoId] = useState(null);
+const [animandoId] = useState(null);
 
 // 🔹 DESPUÉS LOS useEffect
 useEffect(() => {
